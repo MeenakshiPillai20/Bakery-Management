@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body 
+{
+background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Comic Sans MS";
+   padding-top: 5px;
+
+   font-size:18px;
+}
+.box{
+	
+	margin-left:150px;
+}
+.btn{
+	margin-left:250px;
+	font-size:20px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,.marketing,.footer 
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+.header 
+{
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 
+{
+   
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+
+/* Customize container */
+@media (min-width: 768px) 
+{
+  .container 
+  {
+     max-width: 730px;
+  }
+}
+.container-narrow > hr
+{
+    margin: 10px 0;
+}

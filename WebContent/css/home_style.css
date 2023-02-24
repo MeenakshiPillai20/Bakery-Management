@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*
+   {
+        font-family: Comic Sans MS;
+   }
+   .navbar-nav > li
+   {
+        margin-right:40px;
+   }
+   #search
+   {
+        margin-right:40px;
+   }
+   .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
